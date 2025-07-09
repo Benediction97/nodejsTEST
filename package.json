@@ -1,0 +1,38 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benediction97/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "benediction",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benediction97/nodejs/issues"
+  },
+  "homepage": "https://github.com/Benediction97/nodejs#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^17.1.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.16.2",
+    "morgan": "^1.10.0",
+    "node-dev": "^8.0.0"
+  },
+"engines":{
+  "node": "v22.17.0"
+}
+}
